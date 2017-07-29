@@ -1,0 +1,580 @@
+<addons>
+<addon id="plugin.audio.binaural"
+       name="Bin@ural"
+       version="1.0.0a"
+       provider-name="anonymous, art by Christara">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.requests" version="1.1.0"/>
+        <import addon="script.module.t0mm0.common" version="1.1.0"/>
+        <import addon="plugin.video.youtube"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource"
+               	library="default.py">
+        <provides>audio video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>Audio and Video Music Streaming</summary>
+        <description>Browse and stream your favourite songs and albums and videos</description>
+    </extension>
+	
+</addon>
+
+<addon id="plugin.audio.jango"
+       name="Jango"
+       version="0.8.8"
+       provider-name="anonymous">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.t0mm0.common" version="1.1.0"/>
+        <import addon="script.module.requests" version="1.1.0"/>
+    </requires>
+	
+    <extension point="xbmc.python.pluginsource"
+               	library="default.py">
+        <provides>audio</provides>
+    </extension>
+	
+	<extension point="xbmc.service" library="playerMP3.py" start="startup" />
+	
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>Free Internet Radio that plays music you'll love!</summary>
+        <description>Free internet radio. Listen to hundreds of genre stations or create your own with your favorite music.</description>
+    </extension>
+	
+</addon>
+
+<addon id="plugin.audio.radioreference"
+  name="Broadcastify"
+  version="1.1.7"
+  provider-name="www.tvaddons.ag">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+     <news>
+- New tvaddons.ag logo, additional country flags
+    </news>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+    </assets>
+    <summary lang="en">Broadcastify</summary>
+    <description lang="en">The worlds largest source of Public Safety, Aircraft, Rail and Marine Radio Live Audio Streams</description>
+    <platform>all</platform>
+    <forum>http://forums.tvaddons.ag/forums/112-BROADCASTIFY-FOR-KODI</forum>
+    <website>http://www.tvaddons.ag/</website>
+  </extension>
+</addon>
+
+<addon id="plugin.program.indigo" version="3.0.0" name="Indigo" author="tvaddons">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video executable </provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="startup"/>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Indigo is your gateway to the world of unofficial Kodi addons!</summary>
+        <description lang="en">Indigo is your gateway to the world of unofficial Kodi addons! Please visit www.tvaddons.co for support.</description>
+        <disclaimer lang="en">Kodi is a registered trademark of the XBMC Foundation. We are not connected to or in any other way affiliated with Kodi, Team Kodi, or the XBMC Foundation. Furthermore, any software, addons, or products offered by us will receive no support in official Kodi channels, including the Kodi forums and various social networks.</disclaimer>
+        <language>en</language>
+        <platform>all</platform>
+        <forum>https://www.tvaddons.co/forums</forum>
+        <website>https://www.tvaddons.co</website>
+        <source>https://github.com/tvaddonsco/plugin.program.indigo</source>
+    </extension>
+</addon>
+
+<addon id="plugin.video.YouMusic" name="YouMusic" version="1.0.3" provider-name="spanky">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="plugin.video.youtube"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <language>en</language>
+    <summary lang="en">Watch All The Best Music Videos On YouTube. </summary>
+    <description lang="en">Watch All The Best Music Videos From YouTube With YouMusic
+        [COLOR blue]Brought to you In association with TVADDONS.ag[/COLOR]
+	</description>
+    <disclaimer lang="en">[COLOR blue]Please Visit TvAddons.ag For Support[/COLOR]
+        [COLOR red]forums.tvaddons.ag/tvaddons-ag-addon-repository/46413-youmusic[/COLOR]
+    </disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.YouTube_Vault" name="YouTube Vault" version="1.1.1" provider-name="Tvaddons">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="plugin.video.youtube"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <language>en</language>
+    <summary lang="en">Watch Movies/Tv Shows/Cartoons/Music Videos/And The Latest News And Sports Clips From YouTube </summary>
+    <description lang="en">Watch Movies/Tv Shows/Cartoons/Music Videos/And The Latest News And Sports Clips From Tvaddons YouTube Vault addon
+        [COLOR blue]Brought to you In association with TVADDONS.ag[/COLOR]
+	</description>
+    <disclaimer lang="en">[COLOR blue]Please Visit TvAddons.ag For Support[/COLOR]
+        [COLOR red]forums.tvaddons.ag/tvaddons-ag-addon-repository[/COLOR]
+    </disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.adultswim"
+       name="Adult Swim"
+       version="1.0.1"
+       provider-name="jsergio">
+  <requires>
+    <import addon="xbmc.python" version="2.20.0"/>
+    <import addon="script.module.t1mlib" version="1.0.18"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Adult Swim</summary>
+    <description lang="en">Watch free episodes from adultswim.com</description>
+    <disclaimer lang="en">Feel free to use this script. For information visit the wiki.</disclaimer>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://forum.kodi.tv/showthread.php?tid=224741</forum>
+    <website>www.adultswim.com</website>
+    <email></email>
+    <source>https://github.com/learningit/Kodi-plugins-source</source>
+  </extension>
+</addon>
+
+<addon id="plugin.video.animaltv" name="Animal TV" provider-name="mhancoc7" version="0.3.1">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0" />
+    </requires>
+    <extension library="main.py" point="xbmc.python.pluginsource">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Watch live streams of animals!</summary>
+        <description>Please visit [COLOR blue]https://www.tvaddons.co[/COLOR] for addon support! Watch live streams of animals from around the world.</description>
+        <platform>all</platform>
+        <forum>https://www.tvaddons.co/forums/</forum>
+        <website>https://www.tvaddons.co/</website>
+    </extension>
+</addon>
+
+<addon id="plugin.video.blr" name="Bad Lip Reading" provider-name="mhancoc7" version="0.2.9">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0" />
+        <import addon="script.module.liveresolver"/>
+    </requires>
+    <extension library="main.py" point="xbmc.python.pluginsource">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Bad Lip Reading</summary>
+        <description>Please visit [COLOR blue]https://www.tvaddons.oc[/COLOR] for addon support! All the best of Bad Lip Reading!</description>
+        <platform>all</platform>
+        <forum>https://www.tvaddons.co/forums/</forum>
+        <website>https://www.tvaddons.co/</website>
+    </extension>
+</addon>
+
+<addon id="plugin.video.earthcam"
+	name="EarthCam"
+	version="1.0.12"
+	provider-name="tvaddons, idleloop">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">EarthCam</summary>
+    <description lang="en">EarthCam.com is the premiere network of scenic webcams and offers a complete database of interesting places and views from around the world. EarthCam.com is the worlds favorite webcam network and the EarthCam Network cameras have been seen on top news shows, including CNN Headline News.</description>
+    <platform>all</platform>
+    <forum>https://www.tvaddons.ag/forums/tvaddons-ag-addon-repository/</forum>
+    <website>https://www.tvaddons.ag</website>
+    <source>https://dev.tvaddons.ag/tvaddons/plugin.video.earthcam</source>
+  </extension>
+</addon>
+
+<addon id="plugin.video.filmon.simple" name="FilmOn Simple" version="0.1.8" provider-name="mhancoc7">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">FilmOn Simple</summary>
+    <description lang="en">Please visit [COLOR blue]https://www.tvaddons.co[/COLOR] for addon support! Watch Live TV from FilmOn.</description>
+    <platform>all</platform>
+    <forum>https://tvaddons.co/forums/</forum>
+    <website>https://tvaddons.co/</website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.funnyordie" name="Funny or Die" provider-name="mhancoc7" version="0.2.6">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0" />
+        <import addon="script.module.liveresolver"/>
+    </requires>
+    <extension library="main.py" point="xbmc.python.pluginsource">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Funny or Die</summary>
+        <description>Please visit [COLOR blue]https://www.tvaddons.co[/COLOR] for addon support! All the best of Funny or Die!</description>
+        <platform>all</platform>
+        <forum>https://tvaddons.co/forums/</forum>
+        <website>https://tvaddons.co/</website>
+    </extension>
+</addon>
+
+<addon id="plugin.video.last.week.tonight" name="Last Week Tonight" provider-name="mhancoc7" version="0.1.1">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0" />
+        <import addon="script.module.liveresolver"/>
+    </requires>
+    <extension library="main.py" point="xbmc.python.pluginsource">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Last Week Tonight</summary>
+        <description>Please visit [COLOR blue]https://www.tvaddons.co[/COLOR] for addon support! All the best of Last Week Tonight!</description>
+        <platform>all</platform>
+        <forum>https://tvaddons.co/forums/</forum>
+        <website>https://tvaddons.co/</website>
+    </extension>
+</addon>
+
+<addon id="plugin.video.mrbean" name="Mr. Bean" provider-name="mhancoc7" version="0.3.0">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0" />
+        <import addon="script.module.liveresolver"/>
+    </requires>
+    <extension library="main.py" point="xbmc.python.pluginsource">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>All the best of Mr. Bean!</summary>
+        <description>Please visit [COLOR blue]https://www.tvaddons.co[/COLOR] for addon support! All the best of Mr. Bean!</description>
+        <platform>all</platform>
+        <forum>https://tvaddons.co/forums/</forum>
+        <website>https://tvaddons.co/</website>
+    </extension>
+</addon>
+
+<addon id="plugin.video.soulpancake" name="SoulPancake" provider-name="mhancoc7" version="0.2.5">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0" />
+        <import addon="script.module.liveresolver"/>
+    </requires>
+    <extension library="main.py" point="xbmc.python.pluginsource">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>SoulPancake</summary>
+        <description>Please visit [COLOR blue]https://www.tvaddons.co[/COLOR] for addon support! All the best of SoulPancake!</description>
+        <platform>all</platform>
+        <forum>https://tvaddons.co/forums/</forum>
+        <website>https://tvaddons.co/</website>
+    </extension>
+</addon>
+
+<addon id="plugin.video.team.kodi.youtube.channel" name="Team Kodi YouTube Channel" provider-name="mhancoc7" version="0.1.8">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0" />
+        <import addon="script.module.liveresolver"/>
+    </requires>
+    <extension library="main.py" point="xbmc.python.pluginsource">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Team Kodi YouTube Channel</summary>
+        <description>Please visit [COLOR blue]https://www.tvaddons.co[/COLOR] for addon support! All the best from the Official Team Kodi YouTube Channel!</description>
+        <platform>all</platform>
+        <forum>https://tvaddons.co/forums/</forum>
+        <website>https://tvaddons.co/</website>
+    </extension>
+</addon>
+
+<addon id="plugin.video.thomasandfriends" name="Thomas and Friends" provider-name="mhancoc7" version="0.1.6">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0" />
+        <import addon="script.module.liveresolver"/>
+    </requires>
+    <extension library="main.py" point="xbmc.python.pluginsource">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Thomas and Friends</summary>
+        <description>Please visit [COLOR blue]https://www.tvaddons.co[/COLOR] for addon support! All the best of the Thomas and Friends Youtube Channel!</description>
+        <platform>all</platform>
+        <forum>https://tvaddons.co/forums/</forum>
+        <website>https://tvaddons.co/</website>
+    </extension>
+</addon>
+
+<addon id="plugin.video.ufo.tv" name="UFO TV" provider-name="mhancoc7" version="0.1.6">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0" />
+        <import addon="script.module.liveresolver"/>
+    </requires>
+    <extension library="main.py" point="xbmc.python.pluginsource">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>UFO TV</summary>
+        <description>Please visit [COLOR blue]https://www.tvaddons.co[/COLOR] for addon support! All the best of UFO TV!</description>
+        <platform>all</platform>
+        <forum>https://tvaddons.co/forums/</forum>
+        <website>https://tvaddons.co/</website>
+    </extension>
+</addon>
+
+<addon id="plugin.video.ultimateguitar"
+       name="Ultimate Guitar"
+       version="1.1.0"
+       provider-name="anonymous">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource"
+               	library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>Learn to play guitar!</summary>
+        <description>A complete guitar course from Justin Sandercoe, for beginners to advanced players</description>
+    </extension>
+	
+</addon>
+
+<addon id="plugin.video.ustvnow.tva" name="USTVnow Plus" provider-name="mhancoc7" version="14.7.2">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0" />
+        <import addon="script.module.requests" version="2.12.4" />
+        <import addon="script.ustvnow.plus.guide" version="1.1.8" />
+    </requires>
+    <extension library="main.py" point="xbmc.python.pluginsource">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Watch Major American Television Networks Live for Free!</summary>
+        <description lang="en_GB">Please visit https://www.tvaddons.co for addon support! Watch Major American Television Networks Live! Entirely Legal and Free! You can also record content with a paid DVR account or by using DVR referral points. Signup for a free account through the following link today: http://watch.ustvnow.com </description>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
+        <forum>https://www.tvaddons.co/forums/</forum>
+        <website>https://ustvnow.tvaddons.co/</website>
+        <news>-14.7.1 [CR]Updated branding</news>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+            <screenshot>resources/images/screenshots/screenshot-1.png</screenshot>
+            <screenshot>resources/images/screenshots/screenshot-2.png</screenshot>
+            <screenshot>resources/images/screenshots/screenshot-3.png</screenshot>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="program.plexus"
+       name="Plexus"
+       version="0.1.7"
+       provider-name="enen92, TVAddons, RonnieHD">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>executable</provides>
+  </extension>
+  
+  <extension point="xbmc.addon.metadata">
+    <summary>SopCast and AceStream for Kodi</summary>
+    <description lang="en">Plexus - Any complex structure containing an intricate network of parts. Plexus brings native peer-to-peer support (AceStream and SopCast) for Kodi Entertainment Center for several platforms.[CR][CR]Documentation: (missing)</description>
+    <description lang="pt">Plexus - Uma estrutura complexa constituída por uma rede de partes. O Plexus adiciona suporte peer-to-peer nativo (AceStream e Sopcast) ao Kodi Entertainment Center para várias plataformas.[CR][CR]Documentação: (em falta)</description>
+    <description lang="es">Plexus - Una estructura compleja conteniendo una intrincada red de partes. Plexus añade soporte nativo peer-to-peer (AceStream y SopCast) al Centro de Entretenimiento Kodi para varias plataformas.[CR][CR]Documentacion: (falta)</description>
+	<disclaimer lang="en">The author does not host nor distribute any of the content you may watch using this addon. The author has no part in the development of any included technologies. When seeking help in Kodi's forum please respect rules (http://kodi.wiki/view/Forum_rules).</disclaimer>
+    <disclaimer lang="pt">Os autores não alojam nem distribuem nenhum do conteúdo que poderá ser reproduzido a partir deste addon. Os autores não têm qualquer parte no desenvolvimento de qualquer uma das tecnologias. Se procurar ajuda no fórum oficial do Kodi por favor respeite as regras do fórum (http://kodi.wiki/view/Forum_rules).</disclaimer>
+   	<disclaimer lang="es">El autor no aloja ni distribuye cualquier contenido que ud. pudiera reproducir usando este addon. El autor no tiene participacion en el desarrollo de cualquier tecnologia incluida. Cuando requiera ayuda en el foro de Kodi por favor respete las reglas (http://kodi.wiki/view/Forum_rules).</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="script.tvaddons.debug.log" name="TVA Log Uploader" version="1.0.7" provider-name="tvaddons.ag">
+    <requires>
+        <import addon="xbmc.python" version="2.20.0"/>
+    </requires>
+    <extension point="xbmc.python.script" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Upload Debug Logs to Shareable Location</summary>
+        <description lang="en">This add-on gives you the ability to upload your Kodi error logs to a shareable location, and can also optionally email you the link to your logs. Before you get started, be sure to Toggle ON the “Enable debug logging” function under the SYSTEM -> Settings -> System -> Logging menu within Kodi.</description>
+        <language></language>
+        <platform>all</platform>
+        <website>https://www.tvaddons.ag/</website>
+        <source>https://github.com/tknorris/script.tvaddons.debug.log</source>
+        <forum>https://forums.tvaddons.ag/maintenance-tool/</forum>
+    </extension>
+</addon>
+
+<addon id="script.ustvnow.plus.guide" name="USTVnow Guide" version="1.3.2" provider-name="mhancoc7">
+    <requires>
+        <import addon="xbmc.python" version="2.19.0"/>
+	<import addon="script.module.simplejson" version="3.3.0"/>
+	<import addon="plugin.video.ustvnow.tva" version="14.3.8" optional="true" />
+     </requires>
+     <extension point="xbmc.python.script" library="addon.py">
+         <provides>executable video</provides>
+     </extension>
+     <extension point="xbmc.service" library="service.py" start="login" />
+     <extension point="xbmc.addon.metadata">
+         <description lang="en">Please visit https://www.tvaddons.co for addon support! The USTVnow Guide provides an EPG for the USTVnow Plus addon. Signup for a free account through the following link today: http://watch.ustvnow.com</description>
+         <disclaimer lang="en">The USTVnow Guide is based on the FTV Guide by rayw1986 and bluezed which is based on the original TV Guide addon by twinther.</disclaimer>
+         <platform>all</platform>
+         <license>GPLv2</license>
+         <forum>https://tvaddons.co/forums/</forum>
+         <website>https://ustvnow.tvaddons.co/</website>
+         <website></website>
+     </extension>
+</addon>
+
+<addon id="service.subtitles.opensubtitles_by_opensubtitles"
+       name="OpenSubtitles.org by OpenSubtitles"
+       version="5.2.14"
+       provider-name="amet, opensubtitles">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.subtitle.module"
+             library="service.py" />
+  <extension point="xbmc.addon.metadata">
+    <summary>OpenSubtitles by OpenSubtitles.org</summary>
+    <description lang="en">Anonymously search and download subtitles for movies and TV-Series from OpenSubtitles.org without log-in. Search in 75 languages, 4.000.000+ subtitles, daily updates. </description>
+	<description lang="at">Pelis and Subtítulos TV en munches llingües, milenta de subtítulos traducíos y xubíos caldía. Descarga llibre dende la fonte, sofitu API, millones d'usuarios.</description>
+	<description lang="br">Istitloù Filmoù ha TV e meur a yezh, miliadoù a istitloù troet hag uskarget bemdez. Pellgargadenn digoust diouzh ar vammenn, skoazell an API, millionoù a implijerien.</description>
+	<description lang="ca">Subtítols de films i televisió en múltiples idiomes, milers de subtítols traduïts carregats diàriament. Descàrrega gratuïta des de la font, suport de l'API, amb milions d'usuaris.</description>
+	<description lang="cs">Titulky k filmům a seriálům v mnoha jazycích, denně tisíce nahraných přeložených titulků. Stažení zadarmo přímo od zdroje, podpora API, milióny uživatelů.</description>
+	<description lang="de">Film- und TV-Untertitel in vielen Sprachen, täglicher Upload von tausenden übersetzten Untertiteln. Freier Download von der Quelle, API-Unterstützung, Millionen Nutzer</description>
+	<description lang="el">Ταινίες και Σειρές σε όλες τις γλώσσες, χιλιάδες μεταφρασμένοι υπότιτλοι ανεβαίνουν καθημερινά, κατεβάστε δωρεάν , υποστήριξη API από εκατομμύρια χρήστες</description>
+	<description lang="eo">Filmaj kaj Televidaj subtekstoj en multaj lingvoj, miloj da tradukitaj subtekstoj ĉiutage alŝutataj. Senpaga elŝuto de fonto, API-subteno, miloj da uzantoj.</description>
+	<description lang="es">Películas y Subtítulos en diversos idiomas, miles de subtítulos traducidos subidos diariamente. Descarge gratis, soporte API, millones de usuarios.</description>
+	<description lang="et">Sadu Filmi ja TV Serjaalide subtiitrid erinevates keeltes laetakse üles igapäev. tasuta allalaadimine ja abi, rohkem kui miljon kasutajat.</description>
+	<description lang="eu">Film eta Telebista azpitituluak hizkuntza anitzetan, milaka azpititulu itzuliak igotzen dira egunero. Doan jaitsi iturburutik, API sostengua, milioika erabiltzaile.</description>
+	<description lang="fi">Tekstityksiä useilla kielillä elokuviin ja TV-Sarjoihin, tuhansia uusia tekstityksiä päivittäin, ilmainen lataus, API tuki, miljoonia käyttäjiä.</description>
+	<description lang="fr">Les sous-titres de film et téléfilm en plusieurs langues, des milliers de sous-titres traduits tous les jours. Bénéficiez de téléchargements gratuits depuis la source, du support API, une d'une communauté de millions d'utilisateurs.</description>
+	<description lang="hi">मूवी और टीवी उपशीर्षक कई भाषाओं में अनुवाद उपशीर्षक के हजारों दैनिक अपलोड की गई। मुफ्त डाउनलोड स्रोत से , एपीआई समर्थन, उपयोगकर्ताओं के लाखों लोगों की ।</description>
+	<description lang="hr">Titlovi za filmove i TV na mnogim jezicima, tisuće prijevoda postavljenih svaki dan. Besplatno preuzimanje s izvora, podrška za API, milijuni korisnika.</description>
+	<description lang="hu">Film és TV feliratok több nyelven, naponta több ezer lefordított felirat feltöltés. Ingyenes letöltés a forrástól, API támogatás, több millió felhasználó.</description>
+	<description lang="id">Subjudul film dan serial TV dalam multibahasa, ribuan subjudul diterjemah dan diunggah setiap harinya. Pengunduhan gratis dari sumber, didukung fitur antarmuka pemrograman aplikasi, dan jutaan pengguna.</description>
+	<description lang="is">Textar fyrir myndir og sjónvarpsþ. á mörgum tungumálum, þúsundir af þýddum textum upphlaðið daglega. Frítt niðurhal frá síðu, API stuðningur, milljónir notenda.</description>
+	<description lang="it">Sottotitoli di Film e TV in più lingue,migliaia di sottotitoli tradotti caricati ogni giorno.Download gratuito,supporto API, milioni di utenti.</description>
+	<description lang="ja">映画やテレビの字幕をさまざまな言語で。毎日数多くの翻訳字幕がアップロードされています。ソースを無料ダウンロード、API 対応、数百万を超えるユーザー。</description>
+	<description lang="ka">სუბტიტრები ფილმებისა და ტვ-სთვის მრავალ ენაზე. ათასობიტ თარგმნილი სუბტიტრის ატვირთვა ყოველდღიურად. უდასო ჩამოტვირტვა წყაროდან, API მხარდაჭერა, მილიონობით მომხმარებელი</description>
+	<description lang="km">អត្ថបទរឿងសម្រាប់ ខ្សែភាពយន្ត និងកម្មវិធីទូរទស្សន៍​ ជាភាសាជាច្រើន រួមនឹងអត្ថបទរឿងបកប្រែរាប់ពាន់​រឿង​ដែល​ត្រូវបាន​អ័ពឡូដជារៀងរាល់ថ្ងៃ។ ទាញយកដោយឥតគិតថ្លៃពីប្រភពដើម គាំទ្រ API និងមានអ្នកប្រើប្រាស់រាប់លាននាក់។ </description>
+	<description lang="ko">Movie and TV Subtitles in multiple languages, thousands of translated subtitles uploaded daily. Free download from source, API support, millions of users.</description>
+	<description lang="ms">Sarikata TV dan Movie dalam pelbagai bahasa, ribuan terjemahan sarikata dimuat-naik setiap hari.Muat-turun percuma dari sumber utama, sokongan API, jutaan pengguna.</description>
+	<description lang="nl">Ondertitels voor films en tv-series in meerdere talen, dagelijks upload van duizenden vertaalde ondertitels. Gratis downloaden van de bron, API ondersteuning, miljoenen gebruikers.</description>
+	<description lang="no">Undertekster for film og TV på mange språk, med tusener av nye oversettelser hver dag. Vi har gratis nedlasting av undertekster, API-support, og mange millioner brukere.</description>
+	<description lang="pt-br">Milhares de legendas para filmes e seriados de TV, em vários idiomas, são traduzidas e enviadas diariamente. Download grátis, suporte API e milhões de usuários.</description>
+	<description lang="pl">Napisy do filmów i seriali w wielu językach. Tysiące napisów dodawanych codziennie. Darmowe pobranie, miliony użytkowników.</description>
+	<description lang="pt">Legendas de filmes e séries de TV em vários idiomas, milhares de legendas traduzidas e enviadas diariamente. Download grátis a partir da fonte, suporte API, milhões de utilizadores.</description>
+	<description lang="ro">Subtitrari pentru filme in multe limbi, mii de subtitrari traduse si încărcate in fiecare zi. Descărca gratuit de la sursă, suport API, milioane de utilizatori.</description>
+	<description lang="ru">Кино и ТВ субтитры на нескольких языках, тысячи переведенными субтитрами загружены ежедневно. Бесплатно скачать из исходных текстов, поддержка API, миллионы пользователей.</description>
+	<description lang="sk">Titulky pre filmy a TV seriály, denne nahratých tisíce titulkov preložených vo viacerých jazykoch. Sťahuj zadarmo zo zdroja, podpora API, milióny používateľov.</description>
+	<description lang="sl">Filmski in televizijski podnapisi v mnogo jezikih, na tisoče prevedenih podnapisov dnevno. Brezplačen prenos iz vira, podpora API, miljoni uporabnikov.</description>
+	<description lang="sq">Titra filmash dhe serialesh në shumë gjuhë, mijëra titra të përkthyera që vendosen çdo ditë. Shkarko nga burimi, apo nga mbështetja e API-së, miliona përdorues.</description>
+	<description lang="sr">Titlovi za filmove i TV na mnogim jezicima, hiljade prevoda okačenih svakodnevno. Besplatno skidanje sa izvora, podrška za API, milioni korisnika.</description>
+	<description lang="sv">Filmer och Tv-undertexter med olika språk, tusentals översatta undertexter uppladdade dagligen. Gratis nerladdning från källor, API support, miljoner av användare.</description>
+	<description lang="tr">Her gün eklenen, pek çok dildeki binlerce film ve dizi altyazısı. Kaynağından ücretsiz indirme, API desteği ve milyonlarca kullanıcı.</description>
+	<description lang="uz">Film va TV Taglavhalari ko'p tillarda, minglab tarjima qilingan taglavhalar har kuni tizimga yuklanadi. Bepul resursdan yuklab oling, API qo'llaydi, millionlab foydalanuvchilar.</description>
+	<description lang="zh">多语种的电影及剧集字幕，每日更新千余条翻译好的字幕。免费下载，提供API接口，已拥有上百万的用户。</description>
+    <disclaimer>Works without log-in</disclaimer>                                               
+	<news>
+Improved add-on by OpenSubtitles.org
+v5.2.14 (2017-01-23)
+- Users are able to download subtitles as anonymous without authentication. Added localized descriptions, media files
+- New feature: Users are able to check for subtitles when Kodi is not playing, by using the manual search or by standing on an item and opening the subtitles search dialog (By key or by an external addon)  | @burekas
+	</news>
+    <platform>all</platform>
+	<language></language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>https://forum.opensubtitles.org/viewtopic.php?f=8&amp;t=15847</forum>
+    <website>http://www.opensubtitles.org</website>
+    <email>admin [at] opensubtitles {dot} org</email>                                               
+	<assets>
+	    <icon>resources/media/os_logo_512x512.png</icon>
+	    <fanart>resources/media/os_fanart.jpg</fanart>    
+		<screenshot>resources/media/screenshot_1.jpg</screenshot>
+		<screenshot>resources/media/screenshot_2.jpg</screenshot>
+		<screenshot>resources/media/screenshot_3.jpg</screenshot>				
+	</assets>
+    <source>https://github.com/opensubtitles/service.subtitles.opensubtitles_by_opensubtitles</source>    
+  </extension>
+</addon>
+
+<addon id="service.subtitles.subtitles.gr" name="Subtitles.gr" version="1.2.4" provider-name="Thgiliwt">
+	<requires>
+		<import addon="xbmc.python" version="2.24.0"/>
+		<import addon="script.module.tulip" version="1.0.7" />
+	</requires>
+	<extension point="xbmc.subtitle.module" library="service.py">
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Subtitles.gr</summary>
+		<description lang="en">Search and download subtitles from subtitles.gr, xsubs.tv and subztv.club</description>
+		<description lang="el">Εύρεση και λήψη υποτίτλων από τα subtitles.gr, xsubs.tv και subztv.club</description>
+		<disclaimer lang="en">This service is only for Greek subtitles and not published nor endorsed by subtitles.gr, xsubs.tv and subztv.club</disclaimer>
+		<disclaimer lang="el">Υπηρεσία μόνο ελληνικών υποτίτλων που δεν έχει δημοσιευθεί ούτε εγκριθεί από τα subtitles.gr, xsubs.tv και subztv.club</disclaimer>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+		<website>http://www.subtitles.gr/</website>
+		<platform>all</platform>
+		<language>el</language>
+	</extension>
+</addon>
+
+<addon id="repository.xbmchub" name="TVADDONS.CO Add-on Repository" version="3.0.0" provider-name="tvaddons">
+	<extension point="xbmc.addon.repository" name="TVADDONS.CO Add-on Repository">
+	<dir>
+		<info compressed="false">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml</info>
+		<checksum>https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/zips/</datadir>
+	</dir>
+
+    <dir>
+		<info compressed="false">https://github.com/tvaddonsco/tva-release-repo/raw/master/addons.xml</info>
+		<checksum>https://github.com/tvaddonsco/tva-release-repo/raw/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/tvaddonsco/tva-release-repo/raw/master/</datadir>
+    </dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Unofficial Kodi Addons from TVADDONS.CO</summary>
+		<description>Unofficial Kodi Addons from the TVADDONS.CO Add-on Repository. Please visit www.tvaddons.co for support!
+                      
+Kodi is a registered trademark of the XBMC Foundation. We are not connected to or in any other way affiliated with Kodi, Team Kodi, or the XBMC Foundation.</description>
+         <disclaimer>TVADDONS.CO did not make all the add-ons in this repository and is not responsible for their content.</disclaimer>
+		<platform>all</platform>
+                <forum>https://www.tvaddons.co/forums</forum>
+                <website>https://www.tvaddons.co</website>
+	</extension>
+</addon>
+</addons>

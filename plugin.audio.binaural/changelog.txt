@@ -1,0 +1,31 @@
+1.0.0
+Fixed playback
+Fixed Charts
+Fixed menus
+Fixed downloads
+
+0.8.7
+Fixed album playback
+
+0.8.6
+Fixed charts
+
+0.8.5
+Fixed downloads
+
+0.8.4
+Fixed Charts
+
+0.8.3
+Fixed album playback
+
+0.8.2
+Fixed Instant Mix playlists
+Fixed playback of favourite songs
+Added more charts to audio section
+
+0.8.1
+Fixed week calculation
+
+0.8.0
+First release!
