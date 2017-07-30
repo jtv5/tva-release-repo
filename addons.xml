@@ -176,7 +176,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.blr" name="Bad Lip Reading" provider-name="mhancoc7" version="0.2.9">
+<addon id="plugin.video.blr" name="Bad Lip Reading" provider-name="mhancoc7" version="0.3.0">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.liveresolver"/>
@@ -186,7 +186,7 @@
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary>Bad Lip Reading</summary>
-        <description>Please visit [COLOR blue]https://www.tvaddons.oc[/COLOR] for addon support! All the best of Bad Lip Reading!</description>
+        <description>Please visit [COLOR blue]https://www.tvaddons.co[/COLOR] for addon support! All the best of Bad Lip Reading!</description>
         <platform>all</platform>
         <forum>https://www.tvaddons.co/forums/</forum>
         <website>https://www.tvaddons.co/</website>
@@ -277,6 +277,23 @@
         <platform>all</platform>
         <forum>https://tvaddons.co/forums/</forum>
         <website>https://tvaddons.co/</website>
+    </extension>
+</addon>
+
+<addon id="plugin.video.newsy" name="Newsy" provider-name="mhancoc7" version="0.1.0">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0" />
+        <import addon="script.module.liveresolver"/>
+    </requires>
+    <extension library="main.py" point="xbmc.python.pluginsource">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Newsy</summary>
+        <description>Please visit [COLOR blue]https://www.tvaddons.co[/COLOR] for addon support! Newsy is your source for concise, unbiased video news and analysis covering the top stories from around the world.</description>
+        <platform>all</platform>
+        <forum>https://www.tvaddons.co/forums/</forum>
+        <website>https://www.tvaddons.co/</website>
     </extension>
 </addon>
 
