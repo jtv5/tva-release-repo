@@ -384,7 +384,7 @@
 	
 </addon>
 
-<addon id="plugin.video.ustvnow.tva" name="USTVnow Plus" provider-name="mhancoc7" version="14.7.2">
+<addon id="plugin.video.ustvnow.tva" name="USTVnow Plus" provider-name="mhancoc7" version="14.7.4">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.requests" version="2.12.4" />
@@ -400,7 +400,7 @@
         <license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
         <forum>https://www.tvaddons.co/forums/</forum>
         <website>https://ustvnow.tvaddons.co/</website>
-        <news>-14.7.1 [CR]Updated branding</news>
+        <news>-14.7.4 [CR]Added Advanced Settings [CR]Added option to 'Force Clear Token' To Advanced Settings [CR][CR]See the changelog.txt file for previous updates.</news>
         <assets>
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
