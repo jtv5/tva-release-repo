@@ -263,6 +263,22 @@
     </extension>
 </addon>
 
+<addon id="plugin.video.LiveTube" name="Live Tube" version="1.0.1" provider-name="Tvaddons">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="plugin.video.youtube"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <language>en</language>
+    <summary lang="en">Live On YouTube</summary>
+    <description lang="en">Live On YouTube</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.mrbean" name="Mr. Bean" provider-name="mhancoc7" version="0.3.0">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
