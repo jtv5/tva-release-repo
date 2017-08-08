@@ -1,3 +1,6 @@
+[B]Version 14.7.5[/B]
+- New graphics. Thanks jokster!!
+
 [B]Version 14.7.4[/B]
 - Added Advanced Settings
 - Added option to 'Force Clear Token' To Advanced Settings
