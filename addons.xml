@@ -136,7 +136,7 @@
 
 <addon id="plugin.video.adultswim"
        name="Adult Swim"
-       version="1.0.1"
+       version="1.0.3"
        provider-name="jsergio">
   <requires>
     <import addon="xbmc.python" version="2.20.0"/>

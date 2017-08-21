@@ -1,3 +1,8 @@
+Version 1.0.3
+- Improved Resolver
+- Enable/Disable Autoplay Option
+- Show/Hide Locked Episodes Option
+
 Version 1.0.1
 - Minor Fixes
 
