@@ -46,6 +46,20 @@
 	
 </addon>
 
+<addon id="plugin.audio.housemixes" name="House Mixes" version="1.1.6" provider-name="MetalKettle">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"></summary>
+    <description lang="en"></description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.audio.radioreference"
   name="Broadcastify"
   version="1.1.7"
@@ -72,6 +86,44 @@
   </extension>
 </addon>
 
+<addon id="plugin.audio.televisiontunes" name="Themes" version="0.0.9" provider-name="MetalKettle">
+
+
+  <requires>
+
+
+    <import addon="xbmc.python" version="2.1.0"/>
+
+
+  </requires>
+
+
+  <extension point="xbmc.python.pluginsource" library="default.py">
+
+
+        <provides>audio</provides>
+
+
+  </extension>
+
+
+  <extension point="xbmc.addon.metadata">
+
+
+    <summary lang="en">Browse TelevisionTunes.com</summary>
+
+
+    <description lang="en">Listen to TV Theme music and songs from different television shows</description>
+
+
+    <platform>all</platform>
+
+
+  </extension>
+
+
+</addon>
+
 <addon id="plugin.program.indigo" version="3.0.2" name="Indigo" author="tvaddons">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
@@ -90,6 +142,97 @@
         <website>https://www.tvaddons.co</website>
         <source>https://github.com/tvaddonsco/plugin.program.indigo</source>
     </extension>
+</addon>
+
+<addon id="plugin.program.ukcheck" name="UK Vehicle Check" version="1.0.0" provider-name="MetalKettle">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"></summary>
+    <description lang="en"></description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.DecadoDocs" name="Decado Documentaries" version="1.0.3" provider-name="MetalKettle">
+
+
+  <requires>
+
+
+    <import addon="xbmc.python" version="2.1.0"/>
+
+
+    <import addon="script.module.t0mm0.common" version="2.0.0"/>
+
+
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+
+
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+
+
+  </requires>
+
+
+  <extension point="xbmc.python.pluginsource" library="default.py">
+
+
+        <provides>video</provides>
+
+
+  </extension>
+
+
+  <extension point="xbmc.addon.metadata">
+
+
+    <summary lang="en"></summary>
+
+
+    <description lang="en"></description>
+
+
+    <platform>all</platform>
+
+
+  </extension>
+
+
+</addon>
+
+<addon id="plugin.video.LiveTube" name="Live Tube" version="1.0.1" provider-name="Tvaddons">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="plugin.video.youtube"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <language>en</language>
+    <summary lang="en">Live On YouTube</summary>
+    <description lang="en">Live On YouTube</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.TubTub" name="TubTub" version="1.0.1" provider-name="MetalKettle">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">24-7 Streaming of various tv shows or show types</summary>
+    <description lang="en">Some of the streams are poor quality, be warned :)</description>
+    <platform>all</platform>
+  </extension>
 </addon>
 
 <addon id="plugin.video.YouMusic" name="YouMusic" version="1.0.3" provider-name="spanky">
@@ -174,6 +317,44 @@
         <forum>https://www.tvaddons.co/forums/</forum>
         <website>https://www.tvaddons.co/</website>
     </extension>
+</addon>
+
+<addon id="plugin.video.bigbuckbunny" name="Big Buck Bunny" version="1.0.3" provider-name="MetalKettle">
+
+
+  <requires>
+
+
+    <import addon="xbmc.python" version="2.1.0"/>
+
+
+  </requires>
+
+
+  <extension point="xbmc.python.pluginsource" library="default.py">
+
+
+        <provides>video</provides>
+
+
+  </extension>
+
+
+  <extension point="xbmc.addon.metadata">
+
+
+    <summary lang="en"></summary>
+
+
+    <description lang="en"></description>
+
+
+    <platform>all</platform>
+
+
+  </extension>
+
+
 </addon>
 
 <addon id="plugin.video.blr" name="Bad Lip Reading" provider-name="mhancoc7" version="0.3.0">
@@ -263,18 +444,22 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.LiveTube" name="Live Tube" version="1.0.1" provider-name="Tvaddons">
+<addon id="plugin.video.learningzone" name="Learning Zone" version="1.0.8" provider-name="MetalKettle">
   <requires>
+    <import addon="script.module.simplejson" version="3.3.0"/>
     <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="plugin.video.youtube"/>
+    <import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+    <import addon="script.module.urlresolver"  version="2.1.2"/>
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
   </requires>
-  <extension point="xbmc.python.pluginsource" library="addon.py">
-    <provides>video</provides>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <language>en</language>
-    <summary lang="en">Live On YouTube</summary>
-    <description lang="en">Live On YouTube</description>
+    <summary lang="en"> </summary>
+    <description lang="en">Welcome to the worlds largest collection of computer and technology related tutorials on XBMC/KODI</description>
     <platform>all</platform>
   </extension>
 </addon>
@@ -313,6 +498,20 @@
     </extension>
 </addon>
 
+<addon id="plugin.video.pythontut" name="Python Tutorial Videos" version="1.0.8" provider-name="MetalKettle">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"> </summary>
+    <description lang="en"> Learn Python using these easy to follow videos from http://buckysroom.org/ </description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.soulpancake" name="SoulPancake" provider-name="mhancoc7" version="0.2.5">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
@@ -328,6 +527,20 @@
         <forum>https://tvaddons.co/forums/</forum>
         <website>https://tvaddons.co/</website>
     </extension>
+</addon>
+
+<addon id="plugin.video.spacetelescope" name="Space Telescope" version="0.0.7" provider-name="MetalKettle">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Videos and news releases from the Hubble Space Telescope project</summary>
+    <description lang="en">Videos and news releases from the Hubble Space Telescope project</description>
+    <platform>all</platform>
+  </extension>
 </addon>
 
 <addon id="plugin.video.team.kodi.youtube.channel" name="Team Kodi YouTube Channel" provider-name="mhancoc7" version="0.1.8">
@@ -347,6 +560,44 @@
     </extension>
 </addon>
 
+<addon id="plugin.video.tellyads" name="Telly Ads" version="1.0.0" provider-name="MetalKettle">
+
+
+  <requires>
+
+
+    <import addon="xbmc.python" version="2.1.0"/>
+
+
+  </requires>
+
+
+  <extension point="xbmc.python.pluginsource" library="default.py">
+
+
+        <provides>video</provides>
+
+
+  </extension>
+
+
+  <extension point="xbmc.addon.metadata">
+
+
+    <summary lang="en"></summary>
+
+
+    <description lang="en"></description>
+
+
+    <platform>all</platform>
+
+
+  </extension>
+
+
+</addon>
+
 <addon id="plugin.video.thomasandfriends" name="Thomas and Friends" provider-name="mhancoc7" version="0.1.6">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
@@ -362,6 +613,38 @@
         <forum>https://tvaddons.co/forums/</forum>
         <website>https://tvaddons.co/</website>
     </extension>
+</addon>
+
+<addon id="plugin.video.toddlerworldtv" name="Toddler World TV" version="1.0.1" provider-name="MetalKettle">  
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>    
+		<import addon="script.module.urlresolver"  version="2.1.2"/> 
+		<import addon="plugin.video.youtube" version="3.0.0"/>
+	</requires>  
+	<extension point="xbmc.python.pluginsource" library="default.py">        
+		<provides>video</provides>  
+	</extension>  
+	<extension point="xbmc.addon.metadata">    
+		<summary lang="en"></summary>    
+		<description lang="en"></description>    
+		<platform>all</platform>  
+	</extension>
+</addon>
+
+<addon id="plugin.video.tonido-client" name="Tonido Client" version="1.0.1" provider-name="MetalKettle">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.t0mm0.common" version="2.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>audio video</provides>
+
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"></summary>
+    <description lang="en"></description>
+    <platform>all</platform>
+  </extension>
 </addon>
 
 <addon id="plugin.video.ufo.tv" name="UFO TV" provider-name="mhancoc7" version="0.1.6">
@@ -450,6 +733,28 @@
    	<disclaimer lang="es">El autor no aloja ni distribuye cualquier contenido que ud. pudiera reproducir usando este addon. El autor no tiene participacion en el desarrollo de cualquier tecnologia incluida. Cuando requiera ayuda en el foro de Kodi por favor respete las reglas (http://kodi.wiki/view/Forum_rules).</disclaimer>
     <platform>all</platform>
   </extension>
+</addon>
+
+<addon id="script.mkplex"
+       name="MK Plex"
+       version="0.0.2"
+       provider-name="MetalKettle, Plex">
+    <requires>
+        <import addon="xbmc.python" version="2.24.0"/>
+        <import addon="script.module.requests" version="2.3.0"/>
+    </requires>
+    <extension point="xbmc.python.script" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.python.pluginsource" library="plugin.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="startup"></extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Plex for Kodi supporting free accounts</summary>
+        <description lang="en">Unofficial Plex for Kodi add-on</description>
+         <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <platform>all</platform>    </extension>
 </addon>
 
 <addon id="script.tvaddons.debug.log" name="TVA Log Uploader" version="1.0.7" provider-name="tvaddons.ag">
