@@ -1,0 +1,6 @@
+[B]Version 0.1.1[/B]
+- Initial release
+- Thanks to jokster for the amazing graphics!
+
+[B]Version 0.1.0[/B]
+- Initial version
