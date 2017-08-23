@@ -1,3 +1,6 @@
+[B]1.2.5[/B]
+- Cosmetics
+
 [B]1.2.4[/B]
 - Updated subztv.gr
 

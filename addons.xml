@@ -886,7 +886,7 @@ v5.2.14 (2017-01-23)
   </extension>
 </addon>
 
-<addon id="service.subtitles.subtitles.gr" name="Subtitles.gr" version="1.2.4" provider-name="Thgiliwt">
+<addon id="service.subtitles.subtitles.gr" name="Subtitles.gr" version="1.2.5" provider-name="Twilight0">
 	<requires>
 		<import addon="xbmc.python" version="2.24.0"/>
 		<import addon="script.module.tulip" version="1.0.7" />
