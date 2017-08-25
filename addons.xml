@@ -683,9 +683,10 @@
 	
 </addon>
 
-<addon id="plugin.video.ustv.catchup" name="USTVcatchup" provider-name="mhancoc7" version="0.1.2">
+<addon id="plugin.video.ustv.catchup" name="USTVcatchup" provider-name="mhancoc7" version="0.1.3">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
+        <import addon="script.module.requests" version="2.12.4" />
     </requires>
     <extension library="main.py" point="xbmc.python.pluginsource">
         <provides>video</provides>
