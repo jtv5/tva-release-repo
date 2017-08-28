@@ -221,20 +221,6 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.TubTub" name="TubTub" version="1.0.1" provider-name="MetalKettle">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">24-7 Streaming of various tv shows or show types</summary>
-    <description lang="en">Some of the streams are poor quality, be warned :)</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="plugin.video.YouMusic" name="YouMusic" version="1.0.3" provider-name="spanky">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -357,7 +343,7 @@
 
 </addon>
 
-<addon id="plugin.video.blr" name="Bad Lip Reading" provider-name="mhancoc7" version="0.3.0">
+<addon id="plugin.video.blr" name="Bad Lip Reading" provider-name="mhancoc7" version="0.3.1">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.liveresolver"/>
@@ -410,7 +396,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.funnyordie" name="Funny or Die" provider-name="mhancoc7" version="0.2.6">
+<addon id="plugin.video.funnyordie" name="Funny or Die" provider-name="mhancoc7" version="0.2.7">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.liveresolver"/>
@@ -427,7 +413,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.last.week.tonight" name="Last Week Tonight" provider-name="mhancoc7" version="0.1.1">
+<addon id="plugin.video.last.week.tonight" name="Last Week Tonight" provider-name="mhancoc7" version="0.1.2">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.liveresolver"/>
@@ -464,7 +450,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.mrbean" name="Mr. Bean" provider-name="mhancoc7" version="0.3.0">
+<addon id="plugin.video.mrbean" name="Mr. Bean" provider-name="mhancoc7" version="0.3.1">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.liveresolver"/>
@@ -481,7 +467,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.newsy" name="Newsy" provider-name="mhancoc7" version="0.1.0">
+<addon id="plugin.video.newsy.tva" name="Newsy" provider-name="mhancoc7" version="0.1.2">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.liveresolver"/>
@@ -512,7 +498,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.soulpancake" name="SoulPancake" provider-name="mhancoc7" version="0.2.5">
+<addon id="plugin.video.soulpancake" name="SoulPancake" provider-name="mhancoc7" version="0.2.6">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.liveresolver"/>
@@ -543,7 +529,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.team.kodi.youtube.channel" name="Team Kodi YouTube Channel" provider-name="mhancoc7" version="0.1.8">
+<addon id="plugin.video.team.kodi.youtube.channel" name="Team Kodi YouTube Channel" provider-name="mhancoc7" version="0.1.9">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.liveresolver"/>
@@ -647,7 +633,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.ufo.tv" name="UFO TV" provider-name="mhancoc7" version="0.1.6">
+<addon id="plugin.video.ufo.tv" name="UFO TV" provider-name="mhancoc7" version="0.1.7">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.liveresolver"/>
@@ -683,7 +669,7 @@
 	
 </addon>
 
-<addon id="plugin.video.ustv.catchup" name="USTVcatchup" provider-name="mhancoc7" version="0.1.4">
+<addon id="plugin.video.ustv.catchup" name="USTVcatchup" provider-name="mhancoc7" version="0.1.5">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.requests" version="2.12.4" />
@@ -700,7 +686,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.ustvnow.tva" name="USTVnow Plus" provider-name="mhancoc7" version="14.7.5">
+<addon id="plugin.video.ustvnow.tva" name="USTVnow Plus" provider-name="mhancoc7" version="14.7.9">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.requests" version="2.12.4" />
@@ -716,7 +702,7 @@
         <license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
         <forum>https://www.tvaddons.co/forums/</forum>
         <website>https://ustvnow.tvaddons.co/</website>
-        <news>-14.7.5 [CR]New graphics. Thanks jokster!! [CR][CR]See the changelog.txt file for previous updates.</news>
+        <news>-14.7.9 [CR]Fixed addon.xml [CR][CR]See the changelog.txt file for previous updates.</news>
         <assets>
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>

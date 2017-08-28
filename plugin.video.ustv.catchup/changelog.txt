@@ -1,3 +1,7 @@
+[B]Version 0.1.5[/B]
+- Set videos to show as watched
+- Set videos to allow resume
+
 [B]Version 0.1.4[/B]
 - Removed MeTV since they have updated their site and I can no longer pull the streams
 

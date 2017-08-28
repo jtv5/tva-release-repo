@@ -1,3 +1,7 @@
+[B]Version 0.3.1[/B]
+- Set videos to show as watched
+- Set videos to allow resume
+
 [B]Version 0.3.0[/B]
 - Fixed typo
 

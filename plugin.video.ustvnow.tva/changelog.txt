@@ -1,5 +1,15 @@
-[B]Version 14.7.5[/B]
-- New graphics. Thanks jokster!!
+[B]Version 14.7.9[/B]
+- Fixed addon.xml
+
+[B]Version 14.7.8[/B]
+- Set recordings to show as watched
+- Set recordings to allow resume
+
+[B]Version 14.7.7[/B]
+- Remove uneeded code
+
+[B]Version 14.7.6[/B]
+- Remove uneeded code
 
 [B]Version 14.7.4[/B]
 - Added Advanced Settings
