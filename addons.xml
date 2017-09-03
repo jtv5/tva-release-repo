@@ -669,7 +669,7 @@
 	
 </addon>
 
-<addon id="plugin.video.ustv.catchup" name="USTVcatchup" provider-name="mhancoc7" version="0.1.6">
+<addon id="plugin.video.ustv.catchup" name="USTVcatchup" provider-name="mhancoc7" version="0.1.8">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.requests" version="2.12.4" />

@@ -1,3 +1,11 @@
+[B]Version 0.1.8[/B]
+- Added PBS Kids
+- Thanks to jokster for the graphics!
+
+[B]Version 0.1.7[/B]
+- Added NBC
+- Thanks to jokster for the graphics!
+
 [B]Version 0.1.6[/B]
 - Added ABC
 - Thanks to jokster for the graphics!
