@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.audio.binaural"
-       name="Bin@ural"
-       version="1.0.0a"
-       provider-name="anonymous, art by Christara">
+       name="IMVDb"
+       version="2.0.0"
+       provider-name="syntax">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.requests" version="1.1.0"/>
@@ -11,12 +10,13 @@
     </requires>
     <extension point="xbmc.python.pluginsource"
                	library="default.py">
-        <provides>audio video</provides>
+        <provides>audio</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
         <platform>all</platform>
-        <summary>Audio and Video Music Streaming</summary>
-        <description>Browse and stream your favourite songs and albums and videos</description>
+        <summary>Internet Music Video Database</summary>
+        <description>IMVDb is a database of music videos. Please visit www.tvaddons.co for the best unofficial Kodi addons!</description>
+        <website>https://imvdb.com/</website>
+        <forum>https://www.tvaddons.co/forums</forum>
     </extension>
-	
 </addon>

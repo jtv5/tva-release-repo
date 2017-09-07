@@ -1,3 +1,8 @@
+2.0.0
+Renamed addon
+Player updates
+New graphics
+
 1.0.0
 Fixed playback
 Fixed Charts
