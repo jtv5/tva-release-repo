@@ -363,10 +363,11 @@
 
 <addon id="plugin.video.earthcam"
 	name="EarthCam"
-	version="1.0.12"
-	provider-name="tvaddons, idleloop">
+	version="1.1.0"
+	provider-name="idleloop, (forked from xbmchub.com)">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.0.8"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
@@ -375,9 +376,8 @@
     <summary lang="en">EarthCam</summary>
     <description lang="en">EarthCam.com is the premiere network of scenic webcams and offers a complete database of interesting places and views from around the world. EarthCam.com is the worlds favorite webcam network and the EarthCam Network cameras have been seen on top news shows, including CNN Headline News.</description>
     <platform>all</platform>
-    <forum>https://www.tvaddons.ag/forums/tvaddons-ag-addon-repository/</forum>
-    <website>https://www.tvaddons.ag</website>
-    <source>https://dev.tvaddons.ag/tvaddons/plugin.video.earthcam</source>
+    <forum></forum>
+    <website>https://github.com/idleloop-github/xbmc-earthcam</website>
   </extension>
 </addon>
 
