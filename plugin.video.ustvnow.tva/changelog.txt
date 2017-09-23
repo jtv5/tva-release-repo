@@ -1,3 +1,6 @@
+[B]Version 14.8.0[/B]
+- Simplified main screen with sections for Movies, Sports, and DVR
+
 [B]Version 14.7.9[/B]
 - Fixed addon.xml
 
