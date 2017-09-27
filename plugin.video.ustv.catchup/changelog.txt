@@ -1,3 +1,6 @@
+[B]Version 0.2.1[/B]
+- Fixed issues with ABC
+
 [B]Version 0.2.0[/B]
 - Fixed issues with NBC and Travel Channel
 
