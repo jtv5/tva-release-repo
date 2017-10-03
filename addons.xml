@@ -708,7 +708,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.ustvnow.tva" name="USTVnow Plus" provider-name="mhancoc7" version="14.8.1">
+<addon id="plugin.video.ustvnow.tva" name="USTVnow Plus" provider-name="mhancoc7" version="14.8.2">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.requests" version="2.12.4" />
@@ -724,7 +724,7 @@
         <license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
         <forum>https://www.tvaddons.co/forums/</forum>
         <website>https://ustvnow.tvaddons.co/</website>
-        <news>-14.8.1 [CR]Added error message for Free Accounts over 45 days old[CR]Fixed a few issues with playing recordings [CR][CR]See the changelog.txt file for previous updates.</news>
+        <news>-14.8.2 [CR]Removed 45 day old account message[CR]Removed forced email lower case code. Apparently USTVnow allows emails with uppercase letters [CR][CR]See the changelog.txt file for previous updates.</news>
         <assets>
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
