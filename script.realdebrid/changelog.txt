@@ -1,0 +1,4 @@
+RealDebrid Client v0.2
+- fixed summary in addon.xml
+- fixed playback issue in unrestricted links
+- added ability to download and delete unrestricted and torrent files
