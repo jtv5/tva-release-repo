@@ -1,4 +1,6 @@
 
+v1.0.2 = Fixed Recent Mobile & Added Featured
+
 v1.0.1 = Art Added Thanks To Jokstergfx
 
 v1.0.0 = [Initial release]         

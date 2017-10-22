@@ -206,7 +206,7 @@
 
 </addon>
 
-<addon id="plugin.video.LiveTube" name="Live Tube" version="1.0.1" provider-name="Tvaddons">
+<addon id="plugin.video.LiveTube" name="Live Tube" version="1.0.2" provider-name="Tvaddons">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="plugin.video.youtube"/>
