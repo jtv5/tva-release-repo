@@ -1,0 +1,21 @@
+[B]Version 2.0.0[/B]
+
+- Revamp
+- Cleaned up code
+
+[B]Version 1.0.5[/B]
+
+- Fix for Kodi v14 and v15beta
+
+[B]Version 1.0.1[/B]
+
+-Added download option for tracks playing(spoyser)
+-Added search artist option(spoyser)
+-Implemented XBMCHUB Music in to 181FM (Mikey1234)
+-Cleaned up code (Mikey1234, spoyser)
+
+
+[B]Version 1.0.0[/B]
+
+-Intial release
+

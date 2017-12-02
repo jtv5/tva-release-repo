@@ -1,4 +1,21 @@
 <addons>
+<addon id="plugin.audio.181fm" name="181.FM" version="2.0.0" provider-name="">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.t0mm0.common" version="2.1.1"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>audio</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+    <summary lang="en">Browse 181.fm</summary>
+    <description lang="en">Browse and play a wide selection of stations from 181.fm.</description>
+    <platform>all</platform>
+    <forum>http://forums.tvaddons.co/</forum>
+    <website>http://www.181.fm</website>
+  </extension>
+</addon>
+
 <addon id="plugin.audio.binaural"
        name="IMVDb"
        version="2.0.0"
@@ -692,7 +709,7 @@
 	
 </addon>
 
-<addon id="plugin.video.ustv.catchup" name="USTVcatchup" provider-name="mhancoc7" version="0.2.1">
+<addon id="plugin.video.ustv.catchup" name="USTVcatchup" provider-name="mhancoc7" version="0.2.3">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.requests" version="2.12.4" />
