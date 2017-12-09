@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--suppress ALL -->
+<addon id="plugin.video.link__tester" version="0.0.1" name="URLResolver Link Tester" provider-name="Echo Coder">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.urlresolver" version="2.2.0"/>
+        <import addon="script.module.echo"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>URLResolver Link Tester Addon - Forked from TK Norris</summary>
+        <description></description>
+        <platform>all</platform>
+	</extension>
+</addon>
