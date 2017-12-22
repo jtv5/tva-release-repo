@@ -1,3 +1,6 @@
+[B]Version 14.8.5[/B]
+- Added access to the USTVnow Guide settings from the USTVnow Plus settings
+
 [B]Version 14.8.4[/B]
 - Removed 45 day old account message from Recordings
 
