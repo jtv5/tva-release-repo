@@ -1,22 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--suppress ALL -->
-<addon id="plugin.video.premiumize" version="0.0.12" name="Premiumize Cloud" provider-name="tknorris">
+<addon id="plugin.video.premiumize" version="0.0.12.1" name="Premiumize Cloud" provider-name="Premiumize.me">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
     </extension>
-    <extension point="xbmc.addon.repository" name="tknorris release repository">
-        <info compressed="false">https://github.com/tknorris/tknorris-beta-repo/raw/master/addons.xml</info>
-        <checksum>https://github.com/tknorris/tknorris-beta-repo/raw/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://github.com/tknorris/tknorris-beta-repo/raw/master/zips/</datadir>
-    </extension>
     <extension point="xbmc.addon.metadata">
         <summary>Browse your premiumize torrent cloud</summary>
         <description>This addon can be used to browse and stream any videos present in your premiumize.me torrent cloud</description>
         <platform>all</platform>
-        <website>http://tvaddons.ag/</website>
-		<forum>http://forums.tvaddons.ag/forums/180-TKNORRIS-RELEASE-REPOSITORY</forum>
+        <website>https://www.premiumize.me/</website>
+		<forum>https://www.premiumize.me/knowledgebase</forum>
 	</extension>
 </addon>
